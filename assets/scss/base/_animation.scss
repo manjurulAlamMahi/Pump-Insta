@@ -1,0 +1,31 @@
+@keyframes marquee {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
+@keyframes topTobottom{
+    from{
+        transform: translateY(-75px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+
+@keyframes box_shadow{
+    0%{
+        width: 0;
+        height: 0;
+    }
+    50%{
+        width: 183px;
+        height: 183px;
+    }
+    100%{
+        width: 0;
+        height: 0;
+    }
+}

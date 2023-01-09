@@ -1,0 +1,62 @@
+/* ============================== rating Part Start =================================== */
+#rating{
+    padding: 150px 0;
+    .rating_row{
+        padding-top: 60px;
+        .rating_content{
+            padding: 25px 35px;
+            box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.04);
+            border-radius: 30px;
+            .rating_top{
+                padding-bottom: 20px;
+                h6{
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 26px;
+                    color: #4B4B4B;
+                    padding-left: 20px;
+                }
+                a{
+                    color: #787878;
+                }
+            }
+            .rating_body{
+                padding: 20px 35px;
+                background: #F4F4F4;
+                border-radius: 10px;
+                .stars{
+                    i{
+                        color: #FFA723;
+                        padding-right: 5px;
+                    }
+                }
+                p{
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #787878;
+                    padding-top: 20px;
+                }
+            }
+            .rating_footer{
+                padding-top: 25px;
+                .bottom_left{
+                    li{
+                        a{
+                            color: #787878;
+                            margin-right: 15px;
+                        }
+                    }
+                }
+                .bottom_right{
+                    li{
+                        a{
+                            color: #787878;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/* ============================== rating Part End  =================================== */

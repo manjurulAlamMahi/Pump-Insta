@@ -1,0 +1,34 @@
+/* ============================== Blog Part Start =================================== */
+#blog{
+    padding: 150px 0;
+    .blog_content{
+        background-position: center !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        padding: 260px 0;
+        text-align: center;
+        a{
+            width: 129px;
+            height: 129px;
+            color: $hover;
+            font-size: 56px;
+            padding: 25px 31px 31px 54px;
+            background: rgba(233, 0, 36, 0.1);
+            border-radius: 50%;
+            position: relative;
+            &::after{
+                position: absolute;
+                content: '';
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                
+                background: rgba(233, 0, 36, 0.1);
+                border-radius: 50%;
+                animation: box_shadow 2s ease-in-out infinite;
+            }
+            
+        }
+    }
+}
+/* ============================== Blog Part End  =================================== */
